@@ -59,6 +59,7 @@ public class Main {
 
         for(MathEquation equation : equations){
             equation.execute();
+
             System.out.printf("result = " + equation.result + "\n" );
         }
         System.out.printf("Average result =" + MathEquation.getAverageResult());
